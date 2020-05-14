@@ -41,7 +41,7 @@ let showCurrentTime = function()
 
 let updateClock=()=>{
   let time = new Date().getHours();
-  let messageText;
+  let messageText = 'Hmm...';
   let image = 'https://cdns.kinguin.net/media/category/m/u/multiplay_1526300902_2.jpg'
   let timeEventJS = document.getElementById("timeEvent");
   let lolcatImageJS = document.getElementById('lolcatImage');
